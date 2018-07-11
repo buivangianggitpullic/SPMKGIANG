@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5327BBE720F1FD1100275491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327BBE620F1FD1100275491 /* ViewController.swift */; };
+		5327BBEA20F1FD1100275491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5327BBE820F1FD1100275491 /* Main.storyboard */; };
+		5327BBEC20F1FD1100275491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5327BBEB20F1FD1100275491 /* Assets.xcassets */; };
+		5327BBEF20F1FD1100275491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5327BBED20F1FD1100275491 /* LaunchScreen.storyboard */; };
+		5327BBFA20F1FD1100275491 /* SuperMartKetScanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327BBF920F1FD1100275491 /* SuperMartKetScanderTests.swift */; };
+		5327BC0520F1FD1200275491 /* SuperMartKetScanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327BC0420F1FD1200275491 /* SuperMartKetScanderUITests.swift */; };
+		53DAA66120F20AD70021EBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA66020F20AD70021EBE0 /* AppDelegate.swift */; };
+		53DAA66A20F20B1C0021EBE0 /* SPSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA66920F20B1C0021EBE0 /* SPSBaseViewController.swift */; };
+		53DAA66D20F3EDFD0021EBE0 /* UIViewExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA66C20F3EDFD0021EBE0 /* UIViewExtentsion.swift */; };
+		53DAA67020F3F7730021EBE0 /* SPSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA66F20F3F7730021EBE0 /* SPSHomeViewController.swift */; };
+		53DAA67520F3F8050021EBE0 /* SPSHistoryTransectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA67420F3F8050021EBE0 /* SPSHistoryTransectionViewController.swift */; };
+		53DAA67720F3F8230021EBE0 /* SPSCustomerManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA67620F3F8230021EBE0 /* SPSCustomerManagerViewController.swift */; };
+		53DAA67920F3F8380021EBE0 /* SPSWareHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA67820F3F8380021EBE0 /* SPSWareHouseViewController.swift */; };
+		53DAA67C20F40B4F0021EBE0 /* SPSQRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA67A20F40B4F0021EBE0 /* SPSQRScannerViewController.swift */; };
+		53DAA67D20F40B4F0021EBE0 /* SPSQRScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DAA67B20F40B4F0021EBE0 /* SPSQRScannerViewController.xib */; };
+		53DAA68120F40D610021EBE0 /* SPSAddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA67F20F40D610021EBE0 /* SPSAddProductViewController.swift */; };
+		53DAA68220F40D610021EBE0 /* SPSAddProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DAA68020F40D610021EBE0 /* SPSAddProductViewController.xib */; };
+		53DAA68420F516500021EBE0 /* SPSBaseBarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA68320F516500021EBE0 /* SPSBaseBarCodeViewController.swift */; };
+		53DAA68820F51ED10021EBE0 /* SPSDetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA68620F51ED10021EBE0 /* SPSDetailProductViewController.swift */; };
+		53DAA68920F51ED10021EBE0 /* SPSDetailProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DAA68720F51ED10021EBE0 /* SPSDetailProductViewController.xib */; };
+		53DAA68C20F5232A0021EBE0 /* SPSProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA68B20F5232A0021EBE0 /* SPSProduct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5327BBF620F1FD1100275491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5327BBD920F1FD1100275491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5327BBE020F1FD1100275491;
+			remoteInfo = SuperMartKetScander;
+		};
+		5327BC0120F1FD1200275491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5327BBD920F1FD1100275491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5327BBE020F1FD1100275491;
+			remoteInfo = SuperMartKetScander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5327BBE120F1FD1100275491 /* SuperMartKetScander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMartKetScander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5327BBE620F1FD1100275491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5327BBE920F1FD1100275491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5327BBEB20F1FD1100275491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5327BBEE20F1FD1100275491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5327BBF020F1FD1100275491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5327BBF520F1FD1100275491 /* SuperMartKetScanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMartKetScanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5327BBF920F1FD1100275491 /* SuperMartKetScanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMartKetScanderTests.swift; sourceTree = "<group>"; };
+		5327BBFB20F1FD1200275491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5327BC0020F1FD1200275491 /* SuperMartKetScanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMartKetScanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5327BC0420F1FD1200275491 /* SuperMartKetScanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMartKetScanderUITests.swift; sourceTree = "<group>"; };
+		5327BC0620F1FD1200275491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DAA66020F20AD70021EBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53DAA66920F20B1C0021EBE0 /* SPSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSBaseViewController.swift; sourceTree = "<group>"; };
+		53DAA66C20F3EDFD0021EBE0 /* UIViewExtentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtentsion.swift; sourceTree = "<group>"; };
+		53DAA66F20F3F7730021EBE0 /* SPSHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSHomeViewController.swift; sourceTree = "<group>"; };
+		53DAA67420F3F8050021EBE0 /* SPSHistoryTransectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSHistoryTransectionViewController.swift; sourceTree = "<group>"; };
+		53DAA67620F3F8230021EBE0 /* SPSCustomerManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSCustomerManagerViewController.swift; sourceTree = "<group>"; };
+		53DAA67820F3F8380021EBE0 /* SPSWareHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSWareHouseViewController.swift; sourceTree = "<group>"; };
+		53DAA67A20F40B4F0021EBE0 /* SPSQRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSQRScannerViewController.swift; sourceTree = "<group>"; };
+		53DAA67B20F40B4F0021EBE0 /* SPSQRScannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPSQRScannerViewController.xib; sourceTree = "<group>"; };
+		53DAA67F20F40D610021EBE0 /* SPSAddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSAddProductViewController.swift; sourceTree = "<group>"; };
+		53DAA68020F40D610021EBE0 /* SPSAddProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPSAddProductViewController.xib; sourceTree = "<group>"; };
+		53DAA68320F516500021EBE0 /* SPSBaseBarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSBaseBarCodeViewController.swift; sourceTree = "<group>"; };
+		53DAA68620F51ED10021EBE0 /* SPSDetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSDetailProductViewController.swift; sourceTree = "<group>"; };
+		53DAA68720F51ED10021EBE0 /* SPSDetailProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPSDetailProductViewController.xib; sourceTree = "<group>"; };
+		53DAA68B20F5232A0021EBE0 /* SPSProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSProduct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5327BBDE20F1FD1100275491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5327BBF220F1FD1100275491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5327BBFD20F1FD1200275491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5327BBD820F1FD1100275491 = {
+			isa = PBXGroup;
+			children = (
+				5327BBE320F1FD1100275491 /* SuperMartKetScander */,
+				5327BBF820F1FD1100275491 /* SuperMartKetScanderTests */,
+				5327BC0320F1FD1200275491 /* SuperMartKetScanderUITests */,
+				5327BBE220F1FD1100275491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5327BBE220F1FD1100275491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5327BBE120F1FD1100275491 /* SuperMartKetScander.app */,
+				5327BBF520F1FD1100275491 /* SuperMartKetScanderTests.xctest */,
+				5327BC0020F1FD1200275491 /* SuperMartKetScanderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5327BBE320F1FD1100275491 /* SuperMartKetScander */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA68A20F523170021EBE0 /* Model */,
+				53DAA66220F20ADF0021EBE0 /* ViewController */,
+				53DAA65F20F20AD70021EBE0 /* AppDelagate */,
+				5327BBE620F1FD1100275491 /* ViewController.swift */,
+				5327BBE820F1FD1100275491 /* Main.storyboard */,
+				5327BBEB20F1FD1100275491 /* Assets.xcassets */,
+				5327BBED20F1FD1100275491 /* LaunchScreen.storyboard */,
+				5327BBF020F1FD1100275491 /* Info.plist */,
+			);
+			path = SuperMartKetScander;
+			sourceTree = "<group>";
+		};
+		5327BBF820F1FD1100275491 /* SuperMartKetScanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5327BBF920F1FD1100275491 /* SuperMartKetScanderTests.swift */,
+				5327BBFB20F1FD1200275491 /* Info.plist */,
+			);
+			path = SuperMartKetScanderTests;
+			sourceTree = "<group>";
+		};
+		5327BC0320F1FD1200275491 /* SuperMartKetScanderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5327BC0420F1FD1200275491 /* SuperMartKetScanderUITests.swift */,
+				5327BC0620F1FD1200275491 /* Info.plist */,
+			);
+			path = SuperMartKetScanderUITests;
+			sourceTree = "<group>";
+		};
+		53DAA65F20F20AD70021EBE0 /* AppDelagate */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA66020F20AD70021EBE0 /* AppDelegate.swift */,
+			);
+			path = AppDelagate;
+			sourceTree = "<group>";
+		};
+		53DAA66220F20ADF0021EBE0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA66520F20ADF0021EBE0 /* BaseView */,
+				53DAA66320F20ADF0021EBE0 /* Extentsion */,
+				53DAA66420F20ADF0021EBE0 /* ScanerQR_Bar */,
+				53DAA66E20F3F73F0021EBE0 /* Home */,
+				53DAA66720F20ADF0021EBE0 /* History */,
+				53DAA67120F3F7B80021EBE0 /* Customer */,
+				53DAA66820F20ADF0021EBE0 /* WareHouse */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		53DAA66320F20ADF0021EBE0 /* Extentsion */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA66C20F3EDFD0021EBE0 /* UIViewExtentsion.swift */,
+			);
+			path = Extentsion;
+			sourceTree = "<group>";
+		};
+		53DAA66420F20ADF0021EBE0 /* ScanerQR_Bar */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA67A20F40B4F0021EBE0 /* SPSQRScannerViewController.swift */,
+				53DAA67B20F40B4F0021EBE0 /* SPSQRScannerViewController.xib */,
+			);
+			path = ScanerQR_Bar;
+			sourceTree = "<group>";
+		};
+		53DAA66520F20ADF0021EBE0 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA66920F20B1C0021EBE0 /* SPSBaseViewController.swift */,
+				53DAA68320F516500021EBE0 /* SPSBaseBarCodeViewController.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		53DAA66720F20ADF0021EBE0 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA67420F3F8050021EBE0 /* SPSHistoryTransectionViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		53DAA66820F20ADF0021EBE0 /* WareHouse */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA68520F51EC00021EBE0 /* DetailProduct */,
+				53DAA67E20F40D4A0021EBE0 /* AddProduct */,
+				53DAA67820F3F8380021EBE0 /* SPSWareHouseViewController.swift */,
+			);
+			path = WareHouse;
+			sourceTree = "<group>";
+		};
+		53DAA66E20F3F73F0021EBE0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA66F20F3F7730021EBE0 /* SPSHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		53DAA67120F3F7B80021EBE0 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA67620F3F8230021EBE0 /* SPSCustomerManagerViewController.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		53DAA67E20F40D4A0021EBE0 /* AddProduct */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA67F20F40D610021EBE0 /* SPSAddProductViewController.swift */,
+				53DAA68020F40D610021EBE0 /* SPSAddProductViewController.xib */,
+			);
+			name = AddProduct;
+			path = SuperMartKetScander/ViewController/AddProduct;
+			sourceTree = SOURCE_ROOT;
+		};
+		53DAA68520F51EC00021EBE0 /* DetailProduct */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA68620F51ED10021EBE0 /* SPSDetailProductViewController.swift */,
+				53DAA68720F51ED10021EBE0 /* SPSDetailProductViewController.xib */,
+			);
+			path = DetailProduct;
+			sourceTree = "<group>";
+		};
+		53DAA68A20F523170021EBE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53DAA68B20F5232A0021EBE0 /* SPSProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5327BBE020F1FD1100275491 /* SuperMartKetScander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5327BC0920F1FD1200275491 /* Build configuration list for PBXNativeTarget "SuperMartKetScander" */;
+			buildPhases = (
+				5327BBDD20F1FD1100275491 /* Sources */,
+				5327BBDE20F1FD1100275491 /* Frameworks */,
+				5327BBDF20F1FD1100275491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMartKetScander;
+			productName = SuperMartKetScander;
+			productReference = 5327BBE120F1FD1100275491 /* SuperMartKetScander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5327BBF420F1FD1100275491 /* SuperMartKetScanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5327BC0C20F1FD1200275491 /* Build configuration list for PBXNativeTarget "SuperMartKetScanderTests" */;
+			buildPhases = (
+				5327BBF120F1FD1100275491 /* Sources */,
+				5327BBF220F1FD1100275491 /* Frameworks */,
+				5327BBF320F1FD1100275491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5327BBF720F1FD1100275491 /* PBXTargetDependency */,
+			);
+			name = SuperMartKetScanderTests;
+			productName = SuperMartKetScanderTests;
+			productReference = 5327BBF520F1FD1100275491 /* SuperMartKetScanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5327BBFF20F1FD1200275491 /* SuperMartKetScanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5327BC0F20F1FD1200275491 /* Build configuration list for PBXNativeTarget "SuperMartKetScanderUITests" */;
+			buildPhases = (
+				5327BBFC20F1FD1200275491 /* Sources */,
+				5327BBFD20F1FD1200275491 /* Frameworks */,
+				5327BBFE20F1FD1200275491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5327BC0220F1FD1200275491 /* PBXTargetDependency */,
+			);
+			name = SuperMartKetScanderUITests;
+			productName = SuperMartKetScanderUITests;
+			productReference = 5327BC0020F1FD1200275491 /* SuperMartKetScanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5327BBD920F1FD1100275491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bui Giang";
+				TargetAttributes = {
+					5327BBE020F1FD1100275491 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5327BBF420F1FD1100275491 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5327BBE020F1FD1100275491;
+					};
+					5327BBFF20F1FD1200275491 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5327BBE020F1FD1100275491;
+					};
+				};
+			};
+			buildConfigurationList = 5327BBDC20F1FD1100275491 /* Build configuration list for PBXProject "SuperMartKetScander" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5327BBD820F1FD1100275491;
+			productRefGroup = 5327BBE220F1FD1100275491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5327BBE020F1FD1100275491 /* SuperMartKetScander */,
+				5327BBF420F1FD1100275491 /* SuperMartKetScanderTests */,
+				5327BBFF20F1FD1200275491 /* SuperMartKetScanderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5327BBDF20F1FD1100275491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5327BBEF20F1FD1100275491 /* LaunchScreen.storyboard in Resources */,
+				53DAA68220F40D610021EBE0 /* SPSAddProductViewController.xib in Resources */,
+				53DAA67D20F40B4F0021EBE0 /* SPSQRScannerViewController.xib in Resources */,
+				5327BBEC20F1FD1100275491 /* Assets.xcassets in Resources */,
+				53DAA68920F51ED10021EBE0 /* SPSDetailProductViewController.xib in Resources */,
+				5327BBEA20F1FD1100275491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5327BBF320F1FD1100275491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5327BBFE20F1FD1200275491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5327BBDD20F1FD1100275491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DAA68820F51ED10021EBE0 /* SPSDetailProductViewController.swift in Sources */,
+				53DAA66120F20AD70021EBE0 /* AppDelegate.swift in Sources */,
+				53DAA67920F3F8380021EBE0 /* SPSWareHouseViewController.swift in Sources */,
+				53DAA67020F3F7730021EBE0 /* SPSHomeViewController.swift in Sources */,
+				53DAA67720F3F8230021EBE0 /* SPSCustomerManagerViewController.swift in Sources */,
+				53DAA68420F516500021EBE0 /* SPSBaseBarCodeViewController.swift in Sources */,
+				53DAA67520F3F8050021EBE0 /* SPSHistoryTransectionViewController.swift in Sources */,
+				53DAA68C20F5232A0021EBE0 /* SPSProduct.swift in Sources */,
+				53DAA66D20F3EDFD0021EBE0 /* UIViewExtentsion.swift in Sources */,
+				53DAA66A20F20B1C0021EBE0 /* SPSBaseViewController.swift in Sources */,
+				53DAA67C20F40B4F0021EBE0 /* SPSQRScannerViewController.swift in Sources */,
+				5327BBE720F1FD1100275491 /* ViewController.swift in Sources */,
+				53DAA68120F40D610021EBE0 /* SPSAddProductViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5327BBF120F1FD1100275491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5327BBFA20F1FD1100275491 /* SuperMartKetScanderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5327BBFC20F1FD1200275491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5327BC0520F1FD1200275491 /* SuperMartKetScanderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5327BBF720F1FD1100275491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5327BBE020F1FD1100275491 /* SuperMartKetScander */;
+			targetProxy = 5327BBF620F1FD1100275491 /* PBXContainerItemProxy */;
+		};
+		5327BC0220F1FD1200275491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5327BBE020F1FD1100275491 /* SuperMartKetScander */;
+			targetProxy = 5327BC0120F1FD1200275491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5327BBE820F1FD1100275491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5327BBE920F1FD1100275491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5327BBED20F1FD1100275491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5327BBEE20F1FD1100275491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5327BC0720F1FD1200275491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5327BC0820F1FD1200275491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5327BC0A20F1FD1200275491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
+				INFOPLIST_FILE = SuperMartKetScander/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giang.barcodedemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5327BC0B20F1FD1200275491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
+				INFOPLIST_FILE = SuperMartKetScander/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giang.barcodedemo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5327BC0D20F1FD1200275491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
+				INFOPLIST_FILE = SuperMartKetScanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giang.SuperMartKetScanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMartKetScander.app/SuperMartKetScander";
+			};
+			name = Debug;
+		};
+		5327BC0E20F1FD1200275491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
+				INFOPLIST_FILE = SuperMartKetScanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giang.SuperMartKetScanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMartKetScander.app/SuperMartKetScander";
+			};
+			name = Release;
+		};
+		5327BC1020F1FD1200275491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
+				INFOPLIST_FILE = SuperMartKetScanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giang.SuperMartKetScanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperMartKetScander;
+			};
+			name = Debug;
+		};
+		5327BC1120F1FD1200275491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
+				INFOPLIST_FILE = SuperMartKetScanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giang.SuperMartKetScanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperMartKetScander;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5327BBDC20F1FD1100275491 /* Build configuration list for PBXProject "SuperMartKetScander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5327BC0720F1FD1200275491 /* Debug */,
+				5327BC0820F1FD1200275491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5327BC0920F1FD1200275491 /* Build configuration list for PBXNativeTarget "SuperMartKetScander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5327BC0A20F1FD1200275491 /* Debug */,
+				5327BC0B20F1FD1200275491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5327BC0C20F1FD1200275491 /* Build configuration list for PBXNativeTarget "SuperMartKetScanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5327BC0D20F1FD1200275491 /* Debug */,
+				5327BC0E20F1FD1200275491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5327BC0F20F1FD1200275491 /* Build configuration list for PBXNativeTarget "SuperMartKetScanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5327BC1020F1FD1200275491 /* Debug */,
+				5327BC1120F1FD1200275491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5327BBD920F1FD1100275491 /* Project object */;
+}
