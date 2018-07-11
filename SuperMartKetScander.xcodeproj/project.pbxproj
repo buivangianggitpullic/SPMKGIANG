@@ -28,6 +28,7 @@
 		53DAA68820F51ED10021EBE0 /* SPSDetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA68620F51ED10021EBE0 /* SPSDetailProductViewController.swift */; };
 		53DAA68920F51ED10021EBE0 /* SPSDetailProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DAA68720F51ED10021EBE0 /* SPSDetailProductViewController.xib */; };
 		53DAA68C20F5232A0021EBE0 /* SPSProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA68B20F5232A0021EBE0 /* SPSProduct.swift */; };
+		D38AFEBCC818E754B2E70478 /* Pods_SuperMartKetScander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47920B6E8A58E2CE634F3C81 /* Pods_SuperMartKetScander.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27FCFA80B72ABBFBE4EA781C /* Pods-SuperMartKetScander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMartKetScander.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperMartKetScander/Pods-SuperMartKetScander.release.xcconfig"; sourceTree = "<group>"; };
+		47920B6E8A58E2CE634F3C81 /* Pods_SuperMartKetScander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMartKetScander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5327BBE120F1FD1100275491 /* SuperMartKetScander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMartKetScander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5327BBE620F1FD1100275491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5327BBE920F1FD1100275491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +78,9 @@
 		53DAA68620F51ED10021EBE0 /* SPSDetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSDetailProductViewController.swift; sourceTree = "<group>"; };
 		53DAA68720F51ED10021EBE0 /* SPSDetailProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SPSDetailProductViewController.xib; sourceTree = "<group>"; };
 		53DAA68B20F5232A0021EBE0 /* SPSProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSProduct.swift; sourceTree = "<group>"; };
+		5BDFDC25E1766EBE56C09D4E /* Pods-SuperMartKetScander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMartKetScander.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperMartKetScander/Pods-SuperMartKetScander.debug.xcconfig"; sourceTree = "<group>"; };
+		EE77EF3021D86B409C7E7AF0 /* Pods_SuperMartKetScanderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMartKetScanderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC047589BD9853F2597F76E7 /* Pods_SuperMartKetScanderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMartKetScanderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38AFEBCC818E754B2E70478 /* Pods_SuperMartKetScander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FFF9DF0DEA1D718D86B4D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BDFDC25E1766EBE56C09D4E /* Pods-SuperMartKetScander.debug.xcconfig */,
+				27FCFA80B72ABBFBE4EA781C /* Pods-SuperMartKetScander.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5327BBD820F1FD1100275491 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +125,8 @@
 				5327BBF820F1FD1100275491 /* SuperMartKetScanderTests */,
 				5327BC0320F1FD1200275491 /* SuperMartKetScanderUITests */,
 				5327BBE220F1FD1100275491 /* Products */,
+				0FFF9DF0DEA1D718D86B4D7F /* Pods */,
+				6A52AAA70EAECE462DB2AD65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +282,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		6A52AAA70EAECE462DB2AD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47920B6E8A58E2CE634F3C81 /* Pods_SuperMartKetScander.framework */,
+				FC047589BD9853F2597F76E7 /* Pods_SuperMartKetScanderTests.framework */,
+				EE77EF3021D86B409C7E7AF0 /* Pods_SuperMartKetScanderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -271,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5327BC0920F1FD1200275491 /* Build configuration list for PBXNativeTarget "SuperMartKetScander" */;
 			buildPhases = (
+				D7BFAEE97C3447EC27EB1DED /* [CP] Check Pods Manifest.lock */,
 				5327BBDD20F1FD1100275491 /* Sources */,
 				5327BBDE20F1FD1100275491 /* Frameworks */,
 				5327BBDF20F1FD1100275491 /* Resources */,
+				F71192DED1E8C55959AF6DC9 /* [CP] Embed Pods Frameworks */,
+				A288AC2EDFD12F6D9A6E35A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,6 +426,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A288AC2EDFD12F6D9A6E35A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperMartKetScander/Pods-SuperMartKetScander-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BFAEE97C3447EC27EB1DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperMartKetScander-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71192DED1E8C55959AF6DC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SuperMartKetScander/Pods-SuperMartKetScander-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperMartKetScander/Pods-SuperMartKetScander-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5327BBDD20F1FD1100275491 /* Sources */ = {
@@ -577,6 +664,7 @@
 		};
 		5327BC0A20F1FD1200275491 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDFDC25E1766EBE56C09D4E /* Pods-SuperMartKetScander.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +681,7 @@
 		};
 		5327BC0B20F1FD1200275491 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FCFA80B72ABBFBE4EA781C /* Pods-SuperMartKetScander.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

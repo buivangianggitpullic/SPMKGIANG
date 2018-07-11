@@ -1,0 +1,6 @@
+framework module Pods_SuperMartKetScander {
+  umbrella header "Pods-SuperMartKetScander-umbrella.h"
+
+  export *
+  module * { export * }
+}
