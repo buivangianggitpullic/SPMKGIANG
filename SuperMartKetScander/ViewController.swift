@@ -25,6 +25,5 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    
 }
 

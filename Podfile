@@ -3,4 +3,6 @@
  use_frameworks!
 target 'SuperMartKetScander' do
  pod 'RealmSwift'
+ pod 'IQKeyboardManagerSwift'
+ #pod 'CalendarView'
 end

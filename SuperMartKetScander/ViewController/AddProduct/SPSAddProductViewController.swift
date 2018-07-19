@@ -31,9 +31,9 @@ class SPSAddProductViewController: SPSBaseBarCodeViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
+    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
         if let data = metadataObjects.first as? AVMetadataMachineReadableCodeObject {
-            print("======= add product \(data.stringValue)")
+            self.stopScanQRcode()
             let viewVC = SPSDetailProductViewController(nibName: "SPSDetailProductViewController", bundle: nil)
             viewVC.codeProduct = data.stringValue ?? "No code"
             self.present(viewVC, animated: true, completion: {
