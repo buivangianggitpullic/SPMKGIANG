@@ -28,6 +28,9 @@ class SPSWareHouseViewController: SPSBaseViewController {
         
 //        let viewVC = SPSDetailProductViewController(nibName: "SPSDetailProductViewController", bundle: nil)
 //        viewVC.codeProduct = "No code"
+//        self.navigationController?.pushViewController(viewVC, animated: true)
+        
+        
 //        self.present(viewVC, animated: true, completion: {
 //
 //        })

@@ -2,7 +2,7 @@
  platform :ios, '9.0'
  use_frameworks!
 target 'SuperMartKetScander' do
- pod 'RealmSwift'
  pod 'IQKeyboardManagerSwift'
- #pod 'CalendarView'
+ pod 'SQLite.swift'
+ pod 'Toast-Swift', '~> 3.0.1'
 end

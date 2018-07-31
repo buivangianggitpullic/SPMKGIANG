@@ -10,9 +10,9 @@ import UIKit
 
 class SPSProductForInputManagerModel: SPSProduct {
     
-    @objc dynamic var productInput: Double = 0
-    @objc dynamic var historyProductInput: Double = 0
-    @objc dynamic var historyProductOutPut: Double = 0
-    @objc dynamic var historyProductReturn: Double = 0
+    var countProductInput: Double = 0
+    var historyProductInput: Double = 0
+    var historyProductOutPut: Double = 0
+    var historyProductReturn: Double = 0
     
 }

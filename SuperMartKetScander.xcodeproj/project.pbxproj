@@ -13,12 +13,14 @@
 		5327BBEF20F1FD1100275491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5327BBED20F1FD1100275491 /* LaunchScreen.storyboard */; };
 		5327BBFA20F1FD1100275491 /* SuperMartKetScanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327BBF920F1FD1100275491 /* SuperMartKetScanderTests.swift */; };
 		5327BC0520F1FD1200275491 /* SuperMartKetScanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327BC0420F1FD1200275491 /* SuperMartKetScanderUITests.swift */; };
-		53822F2720FC8190006B385A /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0C0FC20FBC0C6008E526F /* Realm.framework */; };
-		53822F2820FC8190006B385A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0C0FE20FBC0C6008E526F /* RealmSwift.framework */; };
-		53822F2F20FE426E006B385A /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53822F2E20FE426E006B385A /* RealmManager.swift */; };
+		532BF8C3210778480008DA72 /* SPSDtailProductExtentionTextFeilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BF8C2210778480008DA72 /* SPSDtailProductExtentionTextFeilViewController.swift */; };
 		53822F3120FE47A5006B385A /* SPSTransactionProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53822F3020FE47A5006B385A /* SPSTransactionProduct.swift */; };
 		53822F3320FE507E006B385A /* SPSProductForInputManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53822F3220FE507E006B385A /* SPSProductForInputManagerModel.swift */; };
 		53822F3520FE514C006B385A /* SPSProductForWareHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53822F3420FE514C006B385A /* SPSProductForWareHouse.swift */; };
+		53B93F7C2103C17B00DFE250 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B93F7B2103C17B00DFE250 /* DataManager.swift */; };
+		53B93F7E2103C26200DFE250 /* SPSProductManagerInputEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B93F7D2103C26200DFE250 /* SPSProductManagerInputEntity.swift */; };
+		53B93F812103C40200DFE250 /* SPSConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B93F802103C40200DFE250 /* SPSConstant.swift */; };
+		53B93F892103DFBC00DFE250 /* Toast_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B93F882103DFBC00DFE250 /* Toast_Swift.framework */; };
 		53DAA66120F20AD70021EBE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA66020F20AD70021EBE0 /* AppDelegate.swift */; };
 		53DAA66A20F20B1C0021EBE0 /* SPSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA66920F20B1C0021EBE0 /* SPSBaseViewController.swift */; };
 		53DAA66D20F3EDFD0021EBE0 /* UIViewExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAA66C20F3EDFD0021EBE0 /* UIViewExtentsion.swift */; };
@@ -60,19 +62,19 @@
 			remoteGlobalIDString = 4DD3F7A0832DE01A2140927CE6FE6F77;
 			remoteInfo = "Pods-SuperMartKetScander";
 		};
-		53A0C0FB20FBC0C6008E526F /* PBXContainerItemProxy */ = {
+		53B93F792103C16400DFE250 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 53A0C0F320FBC0C6008E526F /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 15D61FF21BE2F13A4567F2EF96D8C539;
-			remoteInfo = Realm;
+			remoteGlobalIDString = 0895A9C103E3013D376AE34E1BCAFE90;
+			remoteInfo = SQLite.swift;
 		};
-		53A0C0FD20FBC0C6008E526F /* PBXContainerItemProxy */ = {
+		53B93F872103DFBC00DFE250 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 53A0C0F320FBC0C6008E526F /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D91FCF0DDF86CEB598F6AF4ED7057C65;
-			remoteInfo = RealmSwift;
+			remoteGlobalIDString = 37F0E2642B5F989D5ED3E7AF54B75E16;
+			remoteInfo = "Toast-Swift";
 		};
 		53FD821820FE6207002A2D44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -98,7 +100,7 @@
 		5327BC0020F1FD1200275491 /* SuperMartKetScanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMartKetScanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5327BC0420F1FD1200275491 /* SuperMartKetScanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMartKetScanderUITests.swift; sourceTree = "<group>"; };
 		5327BC0620F1FD1200275491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53822F2E20FE426E006B385A /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		532BF8C2210778480008DA72 /* SPSDtailProductExtentionTextFeilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSDtailProductExtentionTextFeilViewController.swift; sourceTree = "<group>"; };
 		53822F3020FE47A5006B385A /* SPSTransactionProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSTransactionProduct.swift; sourceTree = "<group>"; };
 		53822F3220FE507E006B385A /* SPSProductForInputManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSProductForInputManagerModel.swift; sourceTree = "<group>"; };
 		53822F3420FE514C006B385A /* SPSProductForWareHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSProductForWareHouse.swift; sourceTree = "<group>"; };
@@ -476,6 +478,9 @@
 		53A0C0F120FBBFA9008E526F /* RLMObject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RLMObject.mm; sourceTree = "<group>"; };
 		53A0C0F220FBBFA9008E526F /* RLMRealmUtil.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RLMRealmUtil.mm; sourceTree = "<group>"; };
 		53A0C0F320FBC0C6008E526F /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		53B93F7B2103C17B00DFE250 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		53B93F7D2103C26200DFE250 /* SPSProductManagerInputEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSProductManagerInputEntity.swift; sourceTree = "<group>"; };
+		53B93F802103C40200DFE250 /* SPSConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSConstant.swift; sourceTree = "<group>"; };
 		53DAA66020F20AD70021EBE0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53DAA66920F20B1C0021EBE0 /* SPSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPSBaseViewController.swift; sourceTree = "<group>"; };
 		53DAA66C20F3EDFD0021EBE0 /* UIViewExtentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtentsion.swift; sourceTree = "<group>"; };
@@ -501,9 +506,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B93F892103DFBC00DFE250 /* Toast_Swift.framework in Frameworks */,
 				53FD821A20FE6207002A2D44 /* IQKeyboardManagerSwift.framework in Frameworks */,
-				53822F2720FC8190006B385A /* Realm.framework in Frameworks */,
-				53822F2820FC8190006B385A /* RealmSwift.framework in Frameworks */,
 				D38AFEBCC818E754B2E70478 /* Pods_SuperMartKetScander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +564,8 @@
 		5327BBE320F1FD1100275491 /* SuperMartKetScander */ = {
 			isa = PBXGroup;
 			children = (
+				53B93F7F2103C3F200DFE250 /* Common */,
+				53B93F752103C16400DFE250 /* DataSQLite */,
 				53DAA68A20F523170021EBE0 /* Model */,
 				53DAA66220F20ADF0021EBE0 /* ViewController */,
 				53DAA65F20F20AD70021EBE0 /* AppDelagate */,
@@ -588,14 +594,6 @@
 				5327BC0620F1FD1200275491 /* Info.plist */,
 			);
 			path = SuperMartKetScanderUITests;
-			sourceTree = "<group>";
-		};
-		53822F2A20FE425C006B385A /* Realm */ = {
-			isa = PBXGroup;
-			children = (
-				53822F2E20FE426E006B385A /* RealmManager.swift */,
-			);
-			path = Realm;
 			sourceTree = "<group>";
 		};
 		53A0BF6420FBBFA9008E526F /* Realm */ = {
@@ -1184,10 +1182,27 @@
 			children = (
 				53FD821920FE6207002A2D44 /* IQKeyboardManagerSwift.framework */,
 				53A0C0FA20FBC0C6008E526F /* Pods_SuperMartKetScander.framework */,
-				53A0C0FC20FBC0C6008E526F /* Realm.framework */,
-				53A0C0FE20FBC0C6008E526F /* RealmSwift.framework */,
+				53B93F7A2103C16400DFE250 /* SQLite.framework */,
+				53B93F882103DFBC00DFE250 /* Toast_Swift.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		53B93F752103C16400DFE250 /* DataSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				53B93F7B2103C17B00DFE250 /* DataManager.swift */,
+				53B93F7D2103C26200DFE250 /* SPSProductManagerInputEntity.swift */,
+			);
+			path = DataSQLite;
+			sourceTree = "<group>";
+		};
+		53B93F7F2103C3F200DFE250 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				53B93F802103C40200DFE250 /* SPSConstant.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		53DAA65F20F20AD70021EBE0 /* AppDelagate */ = {
@@ -1201,7 +1216,6 @@
 		53DAA66220F20ADF0021EBE0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				53822F2A20FE425C006B385A /* Realm */,
 				53DAA66520F20ADF0021EBE0 /* BaseView */,
 				53DAA66320F20ADF0021EBE0 /* Extentsion */,
 				53DAA66420F20ADF0021EBE0 /* ScanerQR_Bar */,
@@ -1288,6 +1302,7 @@
 			children = (
 				53DAA68620F51ED10021EBE0 /* SPSDetailProductViewController.swift */,
 				53DAA68720F51ED10021EBE0 /* SPSDetailProductViewController.xib */,
+				532BF8C2210778480008DA72 /* SPSDtailProductExtentionTextFeilViewController.swift */,
 			);
 			path = DetailProduct;
 			sourceTree = "<group>";
@@ -1435,18 +1450,18 @@
 			remoteRef = 53A0C0F920FBC0C6008E526F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		53A0C0FC20FBC0C6008E526F /* Realm.framework */ = {
+		53B93F7A2103C16400DFE250 /* SQLite.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Realm.framework;
-			remoteRef = 53A0C0FB20FBC0C6008E526F /* PBXContainerItemProxy */;
+			path = SQLite.framework;
+			remoteRef = 53B93F792103C16400DFE250 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		53A0C0FE20FBC0C6008E526F /* RealmSwift.framework */ = {
+		53B93F882103DFBC00DFE250 /* Toast_Swift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = RealmSwift.framework;
-			remoteRef = 53A0C0FD20FBC0C6008E526F /* PBXContainerItemProxy */;
+			path = Toast_Swift.framework;
+			remoteRef = 53B93F872103DFBC00DFE250 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		53FD821920FE6207002A2D44 /* IQKeyboardManagerSwift.framework */ = {
@@ -1530,14 +1545,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SuperMartKetScander/Pods-SuperMartKetScander-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1557,13 +1572,16 @@
 				53DAA66120F20AD70021EBE0 /* AppDelegate.swift in Sources */,
 				53DAA67920F3F8380021EBE0 /* SPSWareHouseViewController.swift in Sources */,
 				53DAA67020F3F7730021EBE0 /* SPSHomeViewController.swift in Sources */,
+				532BF8C3210778480008DA72 /* SPSDtailProductExtentionTextFeilViewController.swift in Sources */,
 				53DAA67720F3F8230021EBE0 /* SPSCustomerManagerViewController.swift in Sources */,
-				53822F2F20FE426E006B385A /* RealmManager.swift in Sources */,
+				53B93F812103C40200DFE250 /* SPSConstant.swift in Sources */,
 				53DAA68420F516500021EBE0 /* SPSBaseBarCodeViewController.swift in Sources */,
 				53DAA67520F3F8050021EBE0 /* SPSHistoryTransectionViewController.swift in Sources */,
+				53B93F7C2103C17B00DFE250 /* DataManager.swift in Sources */,
 				53822F3320FE507E006B385A /* SPSProductForInputManagerModel.swift in Sources */,
 				53DAA68C20F5232A0021EBE0 /* SPSProduct.swift in Sources */,
 				53DAA66D20F3EDFD0021EBE0 /* UIViewExtentsion.swift in Sources */,
+				53B93F7E2103C26200DFE250 /* SPSProductManagerInputEntity.swift in Sources */,
 				53DAA66A20F20B1C0021EBE0 /* SPSBaseViewController.swift in Sources */,
 				53DAA67C20F40B4F0021EBE0 /* SPSQRScannerViewController.swift in Sources */,
 				5327BBE720F1FD1100275491 /* ViewController.swift in Sources */,

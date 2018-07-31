@@ -7,26 +7,25 @@
 //
 
 import UIKit
-import RealmSwift
 
-class SPSProduct: Object {
+class SPSProduct {
     
-    @objc dynamic var Id: Int = 0
-    @objc dynamic var codePr: String = ""
-    @objc dynamic var namePr: String = ""
-    @objc dynamic var manufacture: String = ""
-    @objc dynamic var dateOfManuFactire: Date = Date()
-    @objc dynamic var expiryDate: Date = Date()
-    @objc dynamic var dateOfEntry: Date = Date()
-    @objc dynamic var pointForSave: CGFloat = 0.0
-    @objc dynamic var saleOff: Double = 0.0
-    @objc dynamic var improtPrice: Double = 0.0
-    @objc dynamic var priceforSale: Double = 0.0
-    @objc dynamic var isSale: Bool = false
-    @objc dynamic var productReturn: Double = 0
+    var Id: Int = 0
+    var codePr: String = ""
+    var namePr: String = ""
+    var manufacture: String = ""
+    var dateOfManuFactire: Date = Date()
+    var expiryDate: Date = Date()
+    var dateOfEntry: Date = Date()
+    var pointForSave: Double = 0.0
+    var saleOff: Double = 0.0
+    var improtPrice: Double = 0.0
+    var priceforSale: Double = 0.0
+    var isSale: Bool = false
+    var productReturn: Double = 0
+    var unit: String = ""
     // su dung thuoc tinh nay de luu dung transection
 
-    
 }
 
 
