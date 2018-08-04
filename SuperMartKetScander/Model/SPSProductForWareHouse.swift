@@ -9,8 +9,24 @@
 import UIKit
 
 class SPSProductForWareHouse: SPSProduct {
+
+     var totalProduct: Double = 0
+     var totalsoldProduct: Double = 0
     
-    @objc dynamic var totalProduct: Double = 0
-    @objc dynamic var totalsoldProduct: Double = 0
+    
+    init(name: String, id: Int, manuFactured: String , point: Double, saleOff: Double, importForSale: Double, priceSale: Double, totalProduct: Double, totalSoldProduct: Double) {
+        
+        super.init()
+        
+        self.namePr = name
+        self.Id = id
+        self.manufacture = manuFactured
+        self.pointForSave = point
+        self.saleOff = saleOff
+        self.improtPrice = importForSale
+        self.priceforSale = priceSale
+        self.totalProduct = totalProduct
+        self.totalsoldProduct = totalSoldProduct
+    }
     
 }
